@@ -1,0 +1,17 @@
+@import './partials/base';
+
+/**
+
+- add animate.css library in your index.html
+- using animate css, add to the button with class .btn-menu, bounceInDown animation and delay it by 2seconds
+
+- on Hover state transform the element with class card and transform "translateY" property by 20px
+- add transition to that element for the transform property with the duration of 0.2 seconds
+
+- create animation with the name itrotates and have it starting with transform property of rotate(0deg) and end - - with the transform property of 360deg.
+
+- add that animation to the element with the class "burger-icon" and make it last 2 seconds and run infinitely 
+
+*/
+
+// Your class assignment code goes here
