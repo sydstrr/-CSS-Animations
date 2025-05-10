@@ -393,6 +393,25 @@ h3 {
     .hero h3 {
       font-size: 14px; } }
 
+card{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    &:hover{
+        transform: translateY(20px);
+    }
+}
+.burger-icon{
+    animation: itrotates 2s infinite;
+}
+@keyframes itrotates{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
 /**
 
 - add animate.css library in your index.html
